@@ -19,5 +19,5 @@
 - Verificación
 ![plot](./img/verificarusuario.png)
 
-- 
+- Registro al sistema
 ![plot](./img/registro.png)
