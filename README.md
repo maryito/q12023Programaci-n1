@@ -1,11 +1,23 @@
-# Curso de programación #1 2023 Q#
+# Curso de programación #1 2023 Q3
 
 ## Contenido
-- Estructura 
-  - Secuenciales 
-  - Condicionesles
+
+- Estructura
+  - Secuenciales
+  - Condiciónales
   - Repetitivas
-- Lista 
+- Lista
 - CRUD
-- Funciones 
+- Funciones
 - Archivos
+
+## Captura del sistema por CLI 
+
+- Login y menu principal
+![plot](./img/login.png)
+
+- Verificación
+![plot](./img/verificarusuario.png)
+
+- 
+![plot](./img/registro.png)
