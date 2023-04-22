@@ -1,8 +1,8 @@
-from archivo import listadoUser, guardarArchivo
+from src.archivo import listadoUser, guardarArchivo
 
 
 def singUp():
-    print("SING UP")
+    print("\t\tSING UP")
     user =  input("Ingrese su Usuario: ")
     password =  input("Ingrese su Password: ")
     info =  user + "," + password
@@ -15,7 +15,7 @@ def singUp():
 # singUp(nom, passwd)
 
 def login():
-    print("LOGIN")
+    print("\t\tLOGIN")
     _nom =  input("Ingrese su Usuario: ")
     _passwd =  input("Ingrese su Password: ")
     status = False
@@ -26,6 +26,7 @@ def login():
         if (_nom == user[0]) and (_passwd == user[1]):
             print("Usuarios Autenticado\n")
             status = True
+            break
     if status == False:
         print("!Autenticación Fallida!\n")
     return status

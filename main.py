@@ -1,7 +1,7 @@
 
 
-from utility.menu import menuPrincipal
-from login import login, singUp
+from src.utility.menu import menuPrincipal
+from src.login import login, singUp
 #from src.utility.menu import menuPrincipal
 
 if __name__ == '__main__':
@@ -16,7 +16,7 @@ if __name__ == '__main__':
                 # REGISTRO
                 singUp()
         while val:
-            print("Menu Principal")
+            print("\t\tMenu Principal")
             # invoco a mi menu
             menuPrincipal()
             

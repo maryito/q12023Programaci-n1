@@ -1,6 +1,6 @@
 def menuPrincipal():
     listaOpciones = ["modulo1", "modulo2", "modulo3"]
-    print("Titulo del menu")
+    print("\t Pantalla de Home del sistema")
     contado = 0
     for itemOpc in listaOpciones:
         contado =  contado + 1

@@ -6,7 +6,7 @@ from pathlib import Path
 path = Path.cwd()
 
 # dir = "/Users/maryito/clase/Clase PG1/Proyecto/data/"
-dir =  str(path) + "/Proyecto/data/"
+dir =  str(path) + "/data/"
 filename = dir + "users.txt"
 
 def guardarArchivo(info):
@@ -21,10 +21,10 @@ def guardarArchivo(info):
     else:
         print("No se puede almacenar información vacía")
 
-nom =  input("Usuario: ")
-passwd =  input("Password: ")
-save = nom + "," + passwd
-guardarArchivo(save)
+# nom =  input("Usuario: ")
+# passwd =  input("Password: ")
+# save = nom + "," + passwd
+# guardarArchivo(save)
 
 def leerArchivo(filename):
     lista_temp = []
